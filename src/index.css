@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl text-center;
+  }
+  .game {
+    @apply flex items-center justify-center mt-48;
+  }
+  .square {
+    @apply w-10 h-10 border border-slate-800 ;
+  }
+}
